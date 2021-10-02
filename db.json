@@ -1,13 +1,30 @@
 {
-    "alunos": [
+  "course": {
+    "class": [
       {
-        "id": "a56a24e1-7de5-4e70-99d2-745379c1dca2",
-        "name": "antonio"
-      },
-      {
-        "id": "7382d266-bec6-485e-b508-1df59ceac2f0",
-        "name": "quecia"
+        "students": [
+          {
+            "id": "1",
+            "name": "antonio",
+            "registration": "20212320323"
+          }
+        ],
+        "subject": {
+          "name": "Banco de dados",
+          "teacher": "Marcelo Sousa",
+          "lessons": [
+            {
+              "content": {
+                "title": "Aula 01",
+                "description" : "Nesta aula vamos aprendeder o que são as normas normais",
+                "type": "AULA",
+                "content_url" : "https://mylms.s3.amazonaws.com/3f5ecbf9ad1e544a45ea166715b300ac-Bookclub+-+Turma+1+Grupo+2+-+Capitulo+2+.pdf"
+              }
+            }
+          ]
+        }
       }
     ]
   }
+}
   
