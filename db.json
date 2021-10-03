@@ -1,30 +1,54 @@
 {
   "course": {
-    "class": [
-      {
-        "students": [
-          {
-            "id": "1",
-            "name": "antonio",
-            "registration": "20212320323"
-          }
-        ],
-        "subject": {
-          "name": "Banco de dados",
-          "teacher": "Marcelo Sousa",
-          "lessons": [
-            {
-              "content": {
-                "title": "Aula 01",
-                "description" : "Nesta aula vamos aprendeder o que são as normas normais",
-                "type": "AULA",
-                "content_url" : "https://mylms.s3.amazonaws.com/3f5ecbf9ad1e544a45ea166715b300ac-Bookclub+-+Turma+1+Grupo+2+-+Capitulo+2+.pdf"
-              }
-            }
-          ]
-        }
-      }
-    ]
-  }
+    "id": 1,
+    "name": "Ciência da Computação"
+  },
+  "class": [
+    {
+      "id": 1,
+      "code": "XCEOW1",
+      "semester": 4,
+      "courseId": 1,
+      "subjectId": 2
+    }
+  ],
+  "subject": [
+    {
+      "name": "Computação",
+      "teacher": "Alberto",
+      "id": 2
+    },
+    {
+      "name": "Portugues",
+      "teacher": "Alberto",
+      "id": 3
+    }
+  ],
+  "lesson": [
+    {
+      "id": 1,
+      "title": "Aula 01",
+      "description": "Nesta aula vamos aprendeder o que são as normas normais",
+      "subjectId": 1,
+      "contentId": 1
+    }
+  ],
+  "content": {
+    "id": 1,
+    "title": "Aula",
+    "type": "AULA",
+    "content_url": "https://mylms.s3.amazonaws.com/3f5ecbf9ad1e544a45ea166715b300ac-Bookclub+-+Turma+1+Grupo+2+-+Capitulo+2+.pdf"
+  },
+  "registration": {
+    "id": 1,
+    "number": "20212320323",
+    "studentId": 1,
+    "classId": 1
+  },
+  "student": [
+    {
+      "id": 1,
+      "name": "antonio"
+    }
+  ]
 }
-  
