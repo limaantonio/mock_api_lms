@@ -48,7 +48,8 @@
   "student": [
     {
       "id": 1,
-      "name": "antonio"
+      "name": "antonio",
+      "registration": "2021"
     }
   ]
 }
