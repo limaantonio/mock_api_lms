@@ -1,8 +1,10 @@
 {
-  "course": {
-    "id": 1,
-    "name": "Ciência da Computação"
-  },
+  "course": [
+    {
+      "id": 1,
+      "name": "Ciência da Computação"
+    }
+  ],
   "class": [
     {
       "id": 1,
@@ -10,6 +12,18 @@
       "semester": 4,
       "courseId": 1,
       "subjectId": 2
+    },
+    {
+      "code": "SDCEOW1",
+      "semester": 3,
+      "course": {
+        "name": "Ciência da Computaço"
+      },
+      "subject": {
+        "name": "Portugues",
+        "teacher": "Nécio"
+      },
+      "id": 2
     }
   ],
   "subject": [
@@ -26,30 +40,86 @@
   ],
   "lesson": [
     {
-      "id": 1,
       "title": "Aula 01",
-      "description": "Nesta aula vamos aprendeder o que são as normas normais",
-      "subjectId": 1,
-      "contentId": 1
+      "description": "Nesta aula vamos aprender o que são as normas normais",
+      "subject": {
+        "name": "Portugues",
+        "teacher": "Alberto"
+      },
+      "content": {
+        "title": "Teste de revisão",
+        "type": "TESTE",
+        "content_url": "https://forms.gle/A1RFun9FCZCzQdEu8"
+      },
+      "id": 2
     }
   ],
-  "content": {
-    "id": 1,
-    "title": "Aula",
-    "type": "AULA",
-    "content_url": "https://mylms.s3.amazonaws.com/3f5ecbf9ad1e544a45ea166715b300ac-Bookclub+-+Turma+1+Grupo+2+-+Capitulo+2+.pdf"
-  },
-  "registration": {
-    "id": 1,
-    "number": "20212320323",
-    "studentId": 1,
-    "classId": 1
-  },
-  "student": [
+  "content": [
     {
       "id": 1,
-      "name": "antonio",
-      "registration": "2021"
+      "title": "Quiz de revisão",
+      "type": "QUIZ",
+      "content_url": "https://forms.gle/A1RFun9FCZCzQdEu8"
+    },
+    {
+      "title": "Teste de revisão",
+      "type": "TESTE",
+      "content_url": "https://forms.gle/A1RFun9FCZCzQdEu8",
+      "id": 2
+    }
+  ],
+  "registration": [
+    {
+      "number": "20212320323",
+      "studentId": {
+        "name": "Quecia Alves"
+      },
+      "classId": 1,
+      "id": 2
+    },
+    {
+      "number": "20212320002",
+      "studentId": {
+        "name": "Antonio Carlos"
+      },
+      "classId": 1,
+      "id": 3
+    },
+    {
+      "number": "20212320003",
+      "studentId": {
+        "name": "Mizael Silva"
+      },
+      "classId": 1,
+      "id": 4
+    }
+  ],
+  "student": [
+    {
+      "name": "Quecia",
+      "registration": "2012",
+      "id": 2
+    },
+    {
+      "name": "Quecia3",
+      "registration": "2012",
+      "id": 3
+    },
+    {
+      "number": "20212320323",
+      "studentId": {
+        "name": "Quecia Alves"
+      },
+      "classId": 1,
+      "id": 4
+    },
+    {
+      "number": "20212320323",
+      "studentId": {
+        "name": "Quecia Alves"
+      },
+      "classId": 1,
+      "id": 5
     }
   ]
 }
